@@ -23,7 +23,7 @@ class DecisionTree(abc.ABC):
         return NotImplemented                        
 
     @abc.abstractmethod
-    def report(self):
+    def round_summary(self):
         return NotImplemented 
 
 
